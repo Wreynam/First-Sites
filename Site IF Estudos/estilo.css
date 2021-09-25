@@ -1,0 +1,41 @@
+.banner img{
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+	object-position: top;
+}
+.conteudo{
+	width: 90%;
+	height: 150px;
+	background-color: #dad8d8;
+	border-radius: 80px;
+	margin: auto;
+}
+.conteudo ul{
+	margin-top: 12px;
+}
+.conteudo ul li{
+	border-style: solid;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+	display: inline-block;
+	margin-left: 190px;
+	vertical-align: middle;
+	border-radius: 10px;
+}
+.conteudo ul li img{
+	padding-top: 25px;
+}
+footer{
+	width: 12%; 
+	height: auto;
+	margin: 0 auto;
+}
+footer p{
+	margin-top: 10px;
+}
+footer{
+	background-color: #303030;
+	height: 260px;
+}

@@ -1,0 +1,81 @@
+html body{
+	padding: 0 auto;
+	margin: 0;
+}
+ul li{
+	list-style: none;
+	font-size: 25px;
+}
+header{
+	background-color: #151217;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+@media (max-width: 800px){
+	header{flex-direction: column; height: 120px}
+	
+}
+header nav {
+}
+ul{
+	display: flex;
+}
+.palavra{
+	color: white;
+	font-family: Agency FB;
+}
+.logo{
+	font-size: 40px;
+	font-weight: bold;
+}
+.navegacao{
+	font-size: 30px;
+	padding-right: 30px;
+}
+.banner{
+	background-image: url(../images/Home/backbanner.png);
+	height: 450px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.banner img{
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+	object-position: top;
+}
+.slide{
+	width: 85%;
+}
+.slide img{
+	height: 400px;
+}
+footer{
+	border-top: 3px solid #282a37;
+	background-color: #141313;
+	height: 260px !important;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+footer ul{
+	margin: 0 auto;
+	width: 270px;
+}
+footer ul li{
+	margin-left: 5px;
+}
+h2{
+	font-family: Agency FB;
+	color: white;
+	font-size: 30px;
+}
+.cop{
+	color: white;
+	font-family: Agency FB;
+}

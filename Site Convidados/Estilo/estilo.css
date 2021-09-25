@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    background-color: rgb(79, 79, 255);
+    border-radius: 20px;
+
+}
+li{
+    display: flex;
+    list-style: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+    font-family: cursive;
+}
+#listaBloco{
+    list-style-type: none;
+}
